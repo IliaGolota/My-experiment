@@ -1,0 +1,28 @@
+{
+  "name": "my-experiment",
+  "version": "1.0.0",
+  "description": "NPM basics",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IliaGolota/My-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IliaGolota/My-experiment/issues"
+  },
+  "homepage": "https://github.com/IliaGolota/My-experiment#readme",
+  "dependencies": {
+    "joi": "^17.7.0"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
